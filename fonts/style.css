@@ -39,6 +39,7 @@
 }
 .icon-chevron-thin-down:before {
   content: "\e904";
+  color: #fff;
 }
 .icon-chevron-thin-up:before {
   content: "\e905";
@@ -81,7 +82,7 @@
 }
 .icon-facebook2:before {
   content: "\ea91";
-  
+
 }
 .icon-twitter:before {
   content: "\ea96";

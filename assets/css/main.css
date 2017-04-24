@@ -57,13 +57,14 @@ header {
     display: inline-block;
     font-size: 18px;
 }
-.mi-perfil{
-  width: 35px;
-  height: 35px;
-  border-radius: 20px;
-  position: absolute;
-  top: -6px;
-  left: 68px;
+
+.mi-perfil {
+    width: 35px;
+    height: 35px;
+    border-radius: 20px;
+    position: absolute;
+    top: -6px;
+    left: 68px;
 }
 
 article {
@@ -81,14 +82,14 @@ header div {
     top: 0;
 }
 
-.following >span {
+.following>span {
     position: absolute;
     height: 90%;
     top: auto;
     left: 20px;
 }
 
-#down{
+#down {
     padding-left: 70px;
 }
 
@@ -159,10 +160,17 @@ h2 {
 .icon-medium {
     font-size: 30px;
 }
-
-
-
-.icon-twitter {
+#twiter{
+  left: 10px;
+  position: absolute;
+}
+#face{
+  left: 49px;
+    font-size: 21px;
+    top: 0px;
+    position: absolute;
+}
+.redes .icon-twitter {
     left: 3%;
 }
 
@@ -172,52 +180,69 @@ h2 {
 }
 
 .icon-search {
-    left: 2%;
+  left: -30%;
+font-size: 31px;
+position: absolute;
 }
 
 .icon-bell-o {
-    left: 20%;
+  left: 10%;
+      font-size: 26px;
+      position: absolute;
 }
 
 footer {
-  position: absolute;
-      bottom: 0;
-      left: 0;
-      height: 8%;
-      width: 100%;
-      padding-left: 25%;
-      background-color: #fff;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 8%;
+    width: 100%;
+    padding-left: 25%;
+    background-color: #fff;
 }
 
 footer li {
     display: inline-block;
 }
 
-.icon-heart-outlined, .icon-bubble, .icon-twitter2, .icon-facebook, .icon-bookmark {
+.icon-heart-outlined, .icon-bubble, .icon-twitter2, .icon-facebook, .icon-bookmark2 {
     font-size: 30px;
     position: absolute;
     top: 15%;
-
 }
 
-.icon-bubble {
-
-      left: 30%;
-
+footer .icon-bubble {
+    left: 30%;
+}
+#heart:hover {
+  color:red;
+}
+#bubble:hover {
+  color:green;
+}
+#face1:hover {
+  color:blue;
+}
+#twiter1:hover {
+  color:skyblue;
+}
+footer .icon-twitter2 {
+    left: 840px;
 }
 
-.icon-twitter2 {
-
-    left: 560px;
+footer .icon-facebook {
+    left: 882px;
 }
 
-.icon-facebook {
-
-    left: 605px;
+footer .icon-bookmark2 {
+    font-size: 40px;
+    left: 918px;
 }
 
-.icon-bookmark {
-
-    left: 655px;
-
+#laboratoria {
+    width: 90px;
+    height: 35px;
+    position: absolute;
+    top: 0;
+    left: 64px;
 }
